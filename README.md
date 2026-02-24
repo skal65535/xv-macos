@@ -49,7 +49,7 @@ Follow these steps to build XV from this repository:
 # cd xv-macos
 
 # Run the build script
-./scripts/build_macos.sh
+./build_macos.sh
 ```
 
 -> `build/` should contain the 'xv' binaries.
