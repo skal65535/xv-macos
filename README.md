@@ -28,7 +28,6 @@ Thanks GEMINI for the help!
 *   **CMake config:** A `CMakeLists.txt` file for configuring the build process.
 *   **Build Script:** A shell script (`./build_macos.sh`) to automate the build on macOS.
 *   **The final source tree**: `xv-3.10a` contains the expected output of the script run, for reference.
-*   **Documentation:** Information about XV's origin (`xv_origin.txt`) and this repository's README.
 *   **License:** XV's shareware license information (`LICENSE`).
 
 This source tree has been heavily prepared by GEMINI-CLI under my supervision.
