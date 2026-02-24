@@ -1,0 +1,15 @@
+XV Origin Information:
+
+XV is a powerful, albeit old, image viewer and editor originally created by John Bradley and last updated in 1996.
+
+This repository aims to provide a clean environment for building XV on macOS. It includes:
+
+1.  **Original Source Code:** The official XV 3.10a archive (`xv-3.10a.tar.gz`).
+2.  **Patches:**
+    *   RPM Fusion patches (for Linux compatibility).
+    *   Jumbo patches (enhancements and fixes).
+    *   macOS modernization patch (`macos-modernization.patch`) to update APIs for modern macOS compatibility.
+3.  **Build Configuration:** A CMakeLists.txt file tailored for building XV on macOS.
+4.  **Build Script:** A shell script (`scripts/build_macos.sh`) to automate the build process on macOS, including dependency installation via Homebrew.
+
+XV is distributed under a shareware license for personal use. Commercial, government, and institutional users are required to register their copies. Please refer to the `COPYRIGHT` file for full licensing details.
