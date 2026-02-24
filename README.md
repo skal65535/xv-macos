@@ -1,5 +1,7 @@
 # xv-macos
 
+![XV splash screen](./xv_splashscreen.webp)
+
 This repository provides a "clean-room" environment for building the classic image viewer and editor, XV, on macOS.
 It aims to consolidate the original XV source code, essential patches, and a build script for a streamlined macOS
 development experience.
