@@ -36,6 +36,7 @@ install_homebrew() {
 install_dependencies() {
     echo "Installing Homebrew dependencies..."
     brew install --cask xquartz > /dev/null 2>&1
+    brew install cmake > /dev/null 2>&1
     brew install jpeg-turbo libtiff libpng jasper > /dev/null 2>&1
     if [ $? -ne 0 ]; then
         echo "Error: Failed to install one or more dependencies. Please check Homebrew output and your internet connection."
